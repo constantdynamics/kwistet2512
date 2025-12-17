@@ -3,3 +3,8 @@ export { QuizOption } from './QuizOption';
 export { QuizResult } from './QuizResult';
 export { DragDropSort } from './DragDropSort';
 export { ImageZoomQuestion } from './ImageZoomQuestion';
+export { SliderQuestion } from './SliderQuestion';
+export { MemoryQuestion } from './MemoryQuestion';
+export { SequenceQuestion } from './SequenceQuestion';
+export { ComparisonQuestion } from './ComparisonQuestion';
+export { TrueFalseQuestion } from './TrueFalseQuestion';
