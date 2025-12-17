@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
       {/* Top glow line */}
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#FF00FF] via-[#00FFFF] to-[#FF00FF]" />
       
-      <div className="max-w-4xl mx-auto px-4 py-3">
+      <div className="w-full max-w-2xl mx-auto px-4 sm:px-6 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
