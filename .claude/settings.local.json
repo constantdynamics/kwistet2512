@@ -12,7 +12,8 @@
       "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: KnowledgeWave PWA\n\nComplete vaporwave/synthwave educational quiz app with:\n- Vite + React + TypeScript setup\n- Vaporwave design system (neon colors, gradients, glow effects)\n- Facts system with 8 categories and 40+ facts\n- Quiz system with direct answer flow and randomization\n- Gamification (points, levels, badges, streaks)\n- PWA support with service workers\n- Drag & drop sorting questions\n- Image zoom questions\n- Responsive mobile-first design\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

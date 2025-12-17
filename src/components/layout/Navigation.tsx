@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useUser } from '../../contexts/UserContext';
+
 import { checkQuizAvailability } from '../../utils/quiz';
 
 interface NavItem {
@@ -13,7 +13,7 @@ interface NavItem {
 
 export const Navigation: React.FC = () => {
   const location = useLocation();
-  const { stats } = useUser();
+  
   const quizAvailability = checkQuizAvailability();
 
   const navItems: NavItem[] = [

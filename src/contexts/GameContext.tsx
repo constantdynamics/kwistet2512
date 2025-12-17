@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useCallback, type ReactNode } from 'react';
-import { v4 as uuidv4 } from 'uuid';
-import type { QuizSession, QuizQuestion, QuizAnswer, Category } from '../types';
+
+import type { QuizSession, QuizQuestion, QuizAnswer } from '../types';
 import { generateQuizQuestion, createQuizSession, calculateQuizScore } from '../utils/quiz';
 import { saveQuizSession } from '../utils/storage';
 import { soundManager } from '../utils/sounds';
@@ -129,7 +129,7 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
     if (nextIndex >= quizSession.questions.length) {
       // Quiz complete
-      const { score, isPerfect } = calculateQuizScore(
+      const { isPerfect } = calculateQuizScore(
         quizSession.answers.filter(a => a.isCorrect).length + (isAnswerCorrect ? 1 : 0),
         quizSession.questions.length
       );

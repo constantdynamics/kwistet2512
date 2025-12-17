@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
-import { Card, Button } from '../ui';
+import { Card } from '../ui';
 import type { QuizOption } from '../../types';
 
 interface ImageZoomQuestionProps {

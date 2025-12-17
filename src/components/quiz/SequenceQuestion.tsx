@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Card, Button } from '../ui';
+import { Card } from '../ui';
 
 interface SequenceQuestionProps {
   sequence: (string | number)[];

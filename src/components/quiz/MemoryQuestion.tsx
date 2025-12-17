@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Card, Button } from '../ui';
+import { Card } from '../ui';
 import type { QuizOption } from '../../types';
 
 interface MemoryQuestionProps {
